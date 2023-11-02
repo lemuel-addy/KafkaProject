@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0B75D79F-E15A-4A16-AE49-CECE74D52C68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apis", "Apis", "{04850C79-7A72-425A-AEE5-1D47A568770D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consumers", "Consumers", "{AFD2A758-C585-46DA-8890-1E5580E4EAA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaProject.Api", "KafkaProject.Api\KafkaProject.Api.csproj", "{FAE1462D-FB8E-49AE-A2E1-6BE58FC88C59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaProject.Consumer", "KafkaProject.Consumer\KafkaProject.Consumer.csproj", "{E9C1D4B0-0ADB-4F3E-BE48-16E64278C310}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04850C79-7A72-425A-AEE5-1D47A568770D} = {0B75D79F-E15A-4A16-AE49-CECE74D52C68}
+		{AFD2A758-C585-46DA-8890-1E5580E4EAA9} = {0B75D79F-E15A-4A16-AE49-CECE74D52C68}
+		{FAE1462D-FB8E-49AE-A2E1-6BE58FC88C59} = {04850C79-7A72-425A-AEE5-1D47A568770D}
+		{E9C1D4B0-0ADB-4F3E-BE48-16E64278C310} = {AFD2A758-C585-46DA-8890-1E5580E4EAA9}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAE1462D-FB8E-49AE-A2E1-6BE58FC88C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE1462D-FB8E-49AE-A2E1-6BE58FC88C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE1462D-FB8E-49AE-A2E1-6BE58FC88C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE1462D-FB8E-49AE-A2E1-6BE58FC88C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C1D4B0-0ADB-4F3E-BE48-16E64278C310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C1D4B0-0ADB-4F3E-BE48-16E64278C310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C1D4B0-0ADB-4F3E-BE48-16E64278C310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C1D4B0-0ADB-4F3E-BE48-16E64278C310}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
